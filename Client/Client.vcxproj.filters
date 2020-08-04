@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{92c2ea1b-f0ba-4547-8557-b74d5003b81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{21b90a56-cffb-4f5f-bc97-590bfde63feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj">
+      <UniqueIdentifier>{cc68d2b7-dc28-4626-a304-beb090fe7998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design">
+      <UniqueIdentifier>{3b6f184f-0d4c-4cff-8faf-b64dc80aed6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{4d2e63fe-01c5-42a5-b14b-947a71219ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{42ed37a8-4d22-41f6-8beb-fb3864ded934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Stage">
+      <UniqueIdentifier>{d196c050-ec58-4597-9a9a-e69813101afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\00. Back">
+      <UniqueIdentifier>{a839e766-a217-4093-a3b1-6d2d25e436d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\00. Device">
+      <UniqueIdentifier>{2f5ef517-bc29-4072-b817-c67861f09310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\02. ObjMgr">
+      <UniqueIdentifier>{5c5acd97-1fe1-4d85-ab65-f38dfa5c6992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\03. SceneMgr">
+      <UniqueIdentifier>{39529be5-3830-4cd6-a2ac-d8e7437761f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\04. TextureMgr">
+      <UniqueIdentifier>{323fa31a-4422-4bf9-b037-781043fcdf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\05. TimeMgr">
+      <UniqueIdentifier>{3d4d1967-6f20-4592-9187-84e4f0d7ac08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\Texture">
+      <UniqueIdentifier>{9675902e-29ab-4044-a356-4837d6589fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\Texture\00. SingleTexture">
+      <UniqueIdentifier>{4528befd-e46a-4b68-968e-d4e147ad1082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\Texture\01. MultiTexture">
+      <UniqueIdentifier>{f29b707f-1b26-42ad-b232-e20666939ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. Player">
+      <UniqueIdentifier>{35398751-59ce-4074-b785-35b4f696039f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02. Enemy">
+      <UniqueIdentifier>{f6dd34f2-5b97-497d-8ce2-91d6ccd0579e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03. Building">
+      <UniqueIdentifier>{17af218d-573e-4a34-872d-ff1f57d7f64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\04. Mouse">
+      <UniqueIdentifier>{018ea829-6f09-440f-9ae7-c62373cf9e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. UI">
+      <UniqueIdentifier>{8b95d2fe-90d3-4d87-9ea9-d1f237bbfb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. Effect">
+      <UniqueIdentifier>{3c12688a-e80c-4735-82f0-8567b45b9da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\06. KeyMgr">
+      <UniqueIdentifier>{f2bb5fe4-8162-4450-9e16-4ccdde57c8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\07. AStar">
+      <UniqueIdentifier>{4dea20e2-03f4-48ef-bff5-d8a13005a252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige">
+      <UniqueIdentifier>{b9102e1b-53d1-4776-a538-b1d4b0c2be45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge">
+      <UniqueIdentifier>{2de862cf-8554-4d3a-b318-fa6de3463e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\01. Factory">
+      <UniqueIdentifier>{31bb2415-1df3-46ec-a206-52122c898cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\09. CollisionMgr">
+      <UniqueIdentifier>{b432b5b3-2dba-46f0-9420-2c72ad41a7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07. Item">
+      <UniqueIdentifier>{3eef27d5-a52f-4396-93f9-d4c5c0bfdab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction">
+      <UniqueIdentifier>{d935ead4-7111-49f0-8e2f-be726d17ae7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\00. EffectClick">
+      <UniqueIdentifier>{7f7027c1-6233-4ba4-83ff-e66f305cbb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectShoot">
+      <UniqueIdentifier>{cb608c9f-4a30-4658-a0df-471d35a40832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBomb">
+      <UniqueIdentifier>{f8b1c237-2671-439f-a0fc-86277be0a409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectExplosion">
+      <UniqueIdentifier>{41c2da0d-e36a-4baf-8822-154116ed36aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\10. MathMgr">
+      <UniqueIdentifier>{2cf9c330-8db9-47d3-89a7-a72a473654b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. ActiveObject">
+      <UniqueIdentifier>{ecf65d5f-ed30-4b41-90e5-4466179a4d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. ActiveObject\00. Drum">
+      <UniqueIdentifier>{dd512e2e-3066-4871-ad80-78649c278bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. ActiveObject\01. Generator">
+      <UniqueIdentifier>{e102e360-4138-45be-93ce-eb4175e39064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. ActiveObject\02. Car">
+      <UniqueIdentifier>{014e215b-ae22-4259-b4e1-7bd6101b7ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. End">
+      <UniqueIdentifier>{d1d19637-c280-44a4-aba2-9ebdf3d04694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\11. ScollMgr">
+      <UniqueIdentifier>{ee0a37bc-c594-4941-852e-25a6a329c5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectFire">
+      <UniqueIdentifier>{0f9f8a04-7c86-429a-b1c4-2ecf5d9d7dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectSplash">
+      <UniqueIdentifier>{ff30d82a-458a-4f13-8180-f79ac04f87b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectDead">
+      <UniqueIdentifier>{6c6dad42-40ef-459b-9322-d119f8f32528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBigExplosion">
+      <UniqueIdentifier>{569994fd-224d-4905-a0ec-2b06b61de43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Design\12. SoundMgr">
+      <UniqueIdentifier>{d1bd416d-8b94-4ef7-95fd-933c9e486e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. ActiveObject\03. Boat">
+      <UniqueIdentifier>{cae9d952-75e4-4a68-af25-a57ca6b49c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07. Item\00. SniperRifle">
+      <UniqueIdentifier>{f1f37075-4447-4353-b871-bc7ae83f656e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Back.h">
+      <Filter>02. Obj\00. Back</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>03. Design\00. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>03. Design\01. Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Design\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Design\03. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>03. Design\04. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>99. Etc\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>99. Etc\Texture\00. SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>99. Etc\Texture\01. MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>03. Design\05. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>02. Obj\03. Building</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Design\06. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. Obj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>02. Obj\02. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>03. Design\07. AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>02. Obj\04. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>02. Obj\05. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>03. Design\08. Brdige</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBridge.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectClick.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\00. EffectClick</Filter>
+    </ClInclude>
+    <ClInclude Include="BridgeFactory.h">
+      <Filter>03. Design\01. Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>02. Obj\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Design\09. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>02. Obj\09. ActiveObject\02. Car</Filter>
+    </ClInclude>
+    <ClInclude Include="Drum.h">
+      <Filter>02. Obj\09. ActiveObject\00. Drum</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>02. Obj\09. ActiveObject\01. Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectShoot.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectShoot</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectExplosion.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBomb.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBomb</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>03. Design\10. MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>01. Scene\02. End</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>03. Design\11. ScollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFire.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectFire</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectSplash.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectSplash</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectDead.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectDead</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Design\12. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBigExplosion.h">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBigExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Boat.h">
+      <Filter>02. Obj\09. ActiveObject\03. Boat</Filter>
+    </ClInclude>
+    <ClInclude Include="SniperRifle.h">
+      <Filter>02. Obj\07. Item\00. SniperRifle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>01. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Back.cpp">
+      <Filter>02. Obj\00. Back</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>03. Design\00. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Design\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Design\03. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>03. Design\04. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>99. Etc\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>99. Etc\Texture\00. SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>99. Etc\Texture\01. MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>03. Design\05. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>02. Obj\03. Building</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Design\06. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. Obj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>02. Obj\02. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>03. Design\07. AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>02. Obj\04. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>02. Obj\05. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>03. Design\08. Brdige</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBridge.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectClick.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\00. EffectClick</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>02. Obj\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Design\09. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>02. Obj\09. ActiveObject\02. Car</Filter>
+    </ClCompile>
+    <ClCompile Include="Drum.cpp">
+      <Filter>02. Obj\09. ActiveObject\00. Drum</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>02. Obj\09. ActiveObject\01. Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectShoot.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectShoot</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectExplosion.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBomb.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBomb</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>03. Design\10. MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>01. Scene\02. End</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>03. Design\11. ScollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectFire.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectFire</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectSplash.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectSplash</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectDead.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectDead</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Design\12. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBigExplosion.cpp">
+      <Filter>03. Design\08. Brdige\00. EffectBridge\EffectExtinction\EffectBigExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Boat.cpp">
+      <Filter>02. Obj\09. ActiveObject\03. Boat</Filter>
+    </ClCompile>
+    <ClCompile Include="SniperRifle.cpp">
+      <Filter>02. Obj\07. Item\00. SniperRifle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

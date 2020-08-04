@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainFrame">
+      <UniqueIdentifier>{d9c96f31-185e-4dd4-bb22-ef295d22a0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View">
+      <UniqueIdentifier>{5fcb6156-da53-42c0-b3ee-31fc0ea34374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr">
+      <UniqueIdentifier>{c30447fe-1d19-4830-b7da-0e5dbc27d3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\00. MiniView">
+      <UniqueIdentifier>{ec619f0b-ff65-4621-8e6b-f47969726a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\00. Device">
+      <UniqueIdentifier>{7e23a789-29b3-4030-a4e7-fb49ba82f722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\01. TextureMgr">
+      <UniqueIdentifier>{518f2690-158b-42f3-94ff-85109ab6ac1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc">
+      <UniqueIdentifier>{247165c7-53e6-4360-a608-2c6eeec64deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. FormView">
+      <UniqueIdentifier>{1605df62-236e-40ca-9c74-bef3466dab39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog">
+      <UniqueIdentifier>{f71bc3ce-275f-451e-a752-57866e10be14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{7ac4f61e-954c-4950-b092-105fe26938a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="04. FormView\00. MyForm">
+      <UniqueIdentifier>{29f73e13-f8a8-47cb-8ed4-a7d9e19143a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\00. MapDialog">
+      <UniqueIdentifier>{ee1e5f21-19b8-414a-89b2-689885b2e49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\01. UnitDialog">
+      <UniqueIdentifier>{739cec24-b270-4e99-a551-ecaa6ab37d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\00. BackGround">
+      <UniqueIdentifier>{2622d376-119a-4030-8a2e-446c988919a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\01. Texture">
+      <UniqueIdentifier>{bf0ad3e5-5fa6-4b0d-82d3-51bf7f63f9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\01. Texture\ToolSingleTexture">
+      <UniqueIdentifier>{9348ea85-908a-4bc5-ad43-93ee2f0e1615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\01. Texture\ToolMultiTexture">
+      <UniqueIdentifier>{e0057eba-94d8-4da1-9c02-a85c1ecf2412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\02. FileInfo">
+      <UniqueIdentifier>{a9cf3d32-a1a9-4e25-bcaf-337737dd1a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\02. ObjMgr">
+      <UniqueIdentifier>{bdc49310-3c97-4645-90f0-bcf559251762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\02. SpriteDialog">
+      <UniqueIdentifier>{ba3c2ecd-bbef-40ac-9592-5ecfaadebc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\03. ObjFactory">
+      <UniqueIdentifier>{3bc32ae0-1535-44ab-a074-7d790d1f57da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj">
+      <UniqueIdentifier>{df3f010b-123e-418e-8b42-fb6d83dbfec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\00. Building">
+      <UniqueIdentifier>{56d88939-f858-452b-82c5-4fae3e1ae862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\01. Player">
+      <UniqueIdentifier>{b5725ac1-f69d-4753-9f28-dbada6c80c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\02. Enemy">
+      <UniqueIdentifier>{b2477acf-c870-4871-9851-2254932895c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\03. ActiveObject">
+      <UniqueIdentifier>{93677e4b-4c0f-4e39-8d15-21ed45a3d168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\03. ActiveObject\00. Drum">
+      <UniqueIdentifier>{8b1300b1-69d6-42cc-bad0-ada129ae1056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Etc\03. Obj\03. ActiveObject\01. Generator">
+      <UniqueIdentifier>{7af14b01-242f-4b77-b243-98b89551fb0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MfcTool.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MfcToolDoc.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MfcToolView.h">
+      <Filter>01. View</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>02. Mgr\00. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>04. FormView\00. MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01. View\00. MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>03. Etc\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTexture.h">
+      <Filter>03. Etc\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolMultiTexture.h">
+      <Filter>03. Etc\01. Texture\ToolMultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolSingleTexture.h">
+      <Filter>03. Etc\01. Texture\ToolSingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>02. Mgr\01. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDialog.h">
+      <Filter>05. Dialog\00. MapDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitDialog.h">
+      <Filter>05. Dialog\01. UnitDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>03. Etc\02. FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>02. Mgr\03. ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>03. Etc\03. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>03. Etc\03. Obj\00. Building</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>02. Mgr\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteDialog.h">
+      <Filter>05. Dialog\02. SpriteDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03. Etc\03. Obj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>03. Etc\03. Obj\02. Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Drum.h">
+      <Filter>03. Etc\03. Obj\03. ActiveObject\00. Drum</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>03. Etc\03. Obj\03. ActiveObject\01. Generator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MfcTool.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MfcToolDoc.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>02. Mgr\00. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>04. FormView\00. MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01. View\00. MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>03. Etc\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTexture.cpp">
+      <Filter>03. Etc\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMultiTexture.cpp">
+      <Filter>03. Etc\01. Texture\ToolMultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolSingleTexture.cpp">
+      <Filter>03. Etc\01. Texture\ToolSingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>02. Mgr\01. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDialog.cpp">
+      <Filter>05. Dialog\00. MapDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitDialog.cpp">
+      <Filter>05. Dialog\01. UnitDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>03. Etc\02. FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>03. Etc\03. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>03. Etc\03. Obj\00. Building</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>02. Mgr\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteDialog.cpp">
+      <Filter>05. Dialog\02. SpriteDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03. Etc\03. Obj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MfcToolView.cpp">
+      <Filter>01. View</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>03. Etc\03. Obj\02. Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Drum.cpp">
+      <Filter>03. Etc\03. Obj\03. ActiveObject\00. Drum</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>03. Etc\03. Obj\03. ActiveObject\01. Generator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MfcTool.rc">
+      <Filter>99. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MfcTool.rc2">
+      <Filter>99. Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MfcToolDoc.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\MfcTool.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
